@@ -14,6 +14,8 @@ import firebase from "firebase/app";
 import "firebase/auth";
 import Login from './Components/Login/Login';
 import Home from './Components/Home/Home';
+import MyComponent from './Components/MyComponent/MyComponent';
+import Blog from './Components/Blog/Blog';
 
 
 function App() {
@@ -25,12 +27,20 @@ function App() {
               <Login></Login>
             </Route>
 
-            <Route exact path="/home">
+            <Route exact path="/">
               <Home></Home>
             </Route>
 
             <Route path="*">
               <h1> Error:404 <p>Content not found</p></h1>
+            </Route>
+
+            <Route path="/mycomponent">
+            <MyComponent></MyComponent>
+            </Route>
+
+            <Route path="/blog">
+            <Blog></Blog>
             </Route>
           </Switch>
         </Router>
