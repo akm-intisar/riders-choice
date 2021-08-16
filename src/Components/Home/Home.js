@@ -22,7 +22,7 @@ const Home = () => {
           <Container>
             <Navbar.Brand href="/home">Rider's Choice</Navbar.Brand>
             <Nav className="me-auto">
-              <Nav.Link href="/home">Home</Nav.Link>
+              <Nav.Link href="">Home</Nav.Link>
               <Nav.Link href="/mycomponent">Destination</Nav.Link>
               <Nav.Link href="/blog">About Us</Nav.Link>
               <Nav.Link href="/login">Log In</Nav.Link>
@@ -36,7 +36,6 @@ const Home = () => {
           <CardGroup style={{ width: 1450 }}>
             <Row className="justify-content-md-center">
               <Col>
-                
                 <Card>
                   <Card.Img
                     variant="top"
@@ -49,7 +48,6 @@ const Home = () => {
                 </Card>
               </Col>
               <Col>
-                
                 <Card>
                   <Card.Img
                     variant="top"
